@@ -28,11 +28,12 @@
         "ext.HighlightjsIntegration": {
             "scripts": [
                 "highlight/highlight.min.js",
+                "highlight/papyrus.js",
                 "init.js"
             ],
             "styles": [
                 "custom.css",
-                "highlight/styles/vs2015.min.css"
+                "highlight/styles/atom-one-dark.min.css"
             ],
             "targets": [
                 "desktop",
@@ -55,7 +56,9 @@
             "vba": "vbscript",
             "xaml": "xml",
             "mediawiki": "markdown",
-            "asp": "html"
+            "asp": "html",
+            "papyrus": "papyrus",
+            "psc": "papyrus"
         }
     },
     "manifest_version": 1
